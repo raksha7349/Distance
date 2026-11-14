@@ -1,6 +1,8 @@
-distance = float(input("Enter distance in kilometres: "))
 
-metres = distance * 1000
+import sys
+
+distance = float(sys.argv[1])
+
 miles = distance * 0.621371
-print("Distance in metres:", metres)
+
 print("Distance in miles:", miles)
